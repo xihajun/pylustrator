@@ -970,7 +970,7 @@ class QItemProperties(QtWidgets.QWidget):
         self.layout_buttons.addWidget(self.button_grid)
         self.button_grid.clicked.connect(self.buttonGridClicked)
 
-        self.button_legend = QtWidgets.QPushButton("legend")
+        self.button_legend = QtWidgets.QPushButton("leg")
         self.layout_buttons.addWidget(self.button_legend)
         self.button_legend.clicked.connect(self.buttonLegendClicked)
 
