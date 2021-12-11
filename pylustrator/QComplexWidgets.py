@@ -942,31 +942,31 @@ class QItemProperties(QtWidgets.QWidget):
         self.layout_buttons = QtWidgets.QHBoxLayout()
         self.layout.addLayout(self.layout_buttons)
 
-        self.button_add_image = QtWidgets.QPushButton("add image")
+        self.button_add_image = QtWidgets.QPushButton("+img")
         self.layout_buttons.addWidget(self.button_add_image)
         self.button_add_image.clicked.connect(self.buttonAddImageClicked)
 
-        self.button_add_text = QtWidgets.QPushButton("add text")
+        self.button_add_text = QtWidgets.QPushButton("txt")
         self.layout_buttons.addWidget(self.button_add_text)
         self.button_add_text.clicked.connect(self.buttonAddTextClicked)
 
-        self.button_add_annotation = QtWidgets.QPushButton("add annotation")
+        self.button_add_annotation = QtWidgets.QPushButton("anno")
         self.layout_buttons.addWidget(self.button_add_annotation)
         self.button_add_annotation.clicked.connect(self.buttonAddAnnotationClicked)
 
-        self.button_add_rectangle = QtWidgets.QPushButton("add rectangle")
+        self.button_add_rectangle = QtWidgets.QPushButton("x")
         self.layout_buttons.addWidget(self.button_add_rectangle)
         self.button_add_rectangle.clicked.connect(self.buttonAddRectangleClicked)
 
-        self.button_add_arrow = QtWidgets.QPushButton("add arrow")
+        self.button_add_arrow = QtWidgets.QPushButton("->")
         self.layout_buttons.addWidget(self.button_add_arrow)
         self.button_add_arrow.clicked.connect(self.buttonAddArrowClicked)
 
-        self.button_despine = QtWidgets.QPushButton("despine")
+        self.button_despine = QtWidgets.QPushButton("rm")
         self.layout_buttons.addWidget(self.button_despine)
         self.button_despine.clicked.connect(self.buttonDespineClicked)
 
-        self.button_grid = QtWidgets.QPushButton("grid")
+        self.button_grid = QtWidgets.QPushButton("#")
         self.layout_buttons.addWidget(self.button_grid)
         self.button_grid.clicked.connect(self.buttonGridClicked)
 
